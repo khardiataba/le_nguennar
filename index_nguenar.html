@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferme du NGUENNAR - Accueil</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+  <!-- FontAwesome pour icônes -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Style CSS -->
+  <link href="style_ngenar.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Ferme du NGUENNAR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3 fs-5">
+          <li class="nav-item"><a class="nav-link active" href="#presentation">Présentation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#elevage">Élevage</a></li>
+          <li class="nav-item"><a class="nav-link" href="#agriculture">Agriculture</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pisciculture">Pisciculture</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produits-laitiers">Produits Laitiers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#economie">Économie</a></li>
+          <li class="nav-item"><a class="nav-link" href="#partenaires">Partenaires</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header-section position-relative text-white text-center">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="https://cdn.videvo.net/videvo_files/video/free/2022-12/small_watermarked/221127_03_Africa_4k_022_preview.webm"
+        type="video/webm" />
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <div class="overlay"></div>
+    <div class="header-content container">
+      <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Bienvenue à la Ferme du NGUENNAR</h1>
+      <p class="lead animate__animated animate__fadeInUp">
+        L'avenir de l'agriculture et de l'élevage en harmonie avec la nature
+      </p>
+      <a href="#contact" class="btn btn-warning btn-lg mt-3 animate__animated animate__pulse animate__infinite">
+        Contactez-nous <i class="fa-solid fa-envelope ms-2"></i>
+      </a>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <!-- Présentation -->
+    <section id="presentation" class="mb-5 reveal">
+      <h2 class="section-title text-center">Présentation</h2>
+      <p class="text-center fs-5">
+        La ferme du NGUENNAR est une ferme qui évolue dans l'élevage, plus précisément dans le cheptel bovin, ovin, caprin,
+        dans la pisciculture, mais aussi dans l'agriculture (maïs, mil, haricots, sorgho, fourrage) et la production de lait
+        de vache et de chèvre ainsi que leurs dérivés (fromage, lait caillé, beurre).
+      </p>
+    </section>
+
+    <!-- Élevage -->
+    <section id="elevage" class="mb-5 reveal">
+      <h2 class="section-title text-center">Élevage</h2>
+      <p class="text-center">
+        Nos cheptels bovins, ovins et caprins sont élevés dans un cadre sain et respectueux de l'environnement.
+      </p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <img src="cheptel_bovin.jpg" alt="Cheptel bovin" class="secteur-img rounded shadow zoom-hover" />
+        <img src="cheptel_ovin.jpg" alt="Cheptel ovin" class="secteur-img rounded shadow zoom-hover" />
+        <img src="cheptel_caprin.jpg" alt="Cheptel caprin" class="secteur-img rounded shadow zoom-hover" />
+      </div>
+      <div class="video-container mt-4">
+        <video controls>
+          <source src="vid1.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Agriculture -->
+    <section id="agriculture" class="mb-5 reveal">
+      <h2 class="section-title text-center">Agriculture</h2>
+      <p class="text-center">
+        Production de maïs, mil, haricots, sorgho et fourrage avec nos partenaires ANCAR & ARAA.
+      </p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <img src="mais.jpeg" alt="Maïs" class="secteur-img rounded shadow zoom-hover" />
+        <img src="mil__.jpeg" alt="Mil" class="secteur-img rounded shadow zoom-hover" />
+        <img src="haricot.jpg" alt="Haricots" class="secteur-img rounded shadow zoom-hover" />
+        <img src="fourrage.jpeg" alt="Fourrage" class="secteur-img rounded shadow zoom-hover" />
+      </div>
+      <div class="video-container mt-4">
+        <video controls>
+          <source src="agro.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Pisciculture -->
+    <section id="pisciculture" class="mb-5 reveal">
+      <h2 class="section-title text-center">Pisciculture</h2>
+      <p class="text-center">
+        Des bassins modernes pour l’élevage de poissons adaptés à la région sahélienne.
+      </p>
+      <img src="pisciculture.jpeg" alt="Pisciculture" class="secteur-img d-block mx-auto rounded shadow zoom-hover" />
+      <div class="video-container mt-4">
+        <video controls>
+          <source src="PISCI.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Produits laitiers -->
+    <section id="produits-laitiers" class="mb-5 reveal">
+      <h2 class="section-title text-center">Produits Laitiers</h2>
+      <p class="text-center">
+        Production artisanale de lait de vache et chèvre, fromage, lait caillé et beurre.
+      </p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <img src="from.jpeg" alt="Fromage" class="secteur-img rounded shadow zoom-hover" />
+        <img src="lait_caillé.jpeg" alt="Lait Caillé" class="secteur-img rounded shadow zoom-hover" />
+        <img src="beurre.jpeg" alt="Beurre" class="secteur-img rounded shadow zoom-hover" />
+      </div>
+      <div class="video-container mt-4">
+        <video controls>
+          <source src="production.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+      </div>
+    </section>
+
+    <!-- Économie -->
+    <section id="economie" class="mb-5 reveal">
+      <h2 class="section-title text-center">Économie</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <i class="fa-solid fa-briefcase fa-3x text-success mb-3"></i>
+          <h4>Création d'emplois</h4>
+          <p>La ferme offre des emplois stables à la population locale, favorisant le développement économique.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fa-solid fa-chart-line fa-3x text-success mb-3"></i>
+          <h4>Chiffre d'affaires</h4>
+          <p>Grâce à la vente directe et aux partenariats, la ferme génère un chiffre d'affaires solide.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fa-solid fa-leaf fa-3x text-success mb-3"></i>
+          <h4>Impact durable</h4>
+          <p>Engagement dans l’agriculture durable et l’élevage responsable pour préserver les ressources.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partenaires -->
+    <section id="partenaires" class="mb-5 reveal text-center">
+      <h2 class="section-title">Nos partenaires</h2>
+      <div class="d-flex justify-content-center gap-4 flex-wrap align-items-center mt-3">
+        <img src="ANCAR.jpeg" alt="ANCAR" class="partner-logo" />
+        <img src="ARAA.jpeg" alt="ARAA" class="partner-logo" />
+        <img src="MEPA.jpeg" alt="MEPA" class="partner-logo" />
+      </div>
+      <p class="mt-3 fst-italic">
+        ANCAR (Agence Nationale du Conseil Agricole et Rural) & ARAA (Agence Régionale pour l'Agriculture et l'Alimentation) pour
+        l'agriculture.<br />
+        MEPA (Ministère de l'Élevage et de la Production Animale) pour l'élevage.
+      </p>
+    </section>
+
+    <!-- Contact (en bas) -->
+    <section id="contact" class="mb-5 reveal contact-section">
+      <h2 class="section-title text-center animate__animated animate__heartBeat animate__repeat-3 animate__slow">Contact</h2>
+      <p class="text-center fs-5 mb-4">
+        Adresse : Sénégal, Louga, Nguidileu, Kebe Ndeukteu<br />
+        Téléphone : 33 333 33 33<br />
+        E-mail : <a href="mailto:lenguennar221@gmail.com">lenguennar221@gmail.com</a>
+      </p>
+      <form id="contactForm" action="https://formspree.io/f/moqypzga" method="POST" class="mx-auto w-75 shadow p-4 rounded bg-light">
+        <div class="mb-3">
+          <label for="name" class="form-label fw-semibold">Nom complet</label>
+          <input type="text" name="name" id="name" class="form-control" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label fw-semibold">Adresse email</label>
+          <input type="email" name="email" id="email" class="form-control" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label fw-semibold">Message</label>
+          <textarea name="message" id="message" rows="5" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg w-100 fw-bold">
+          Envoyer <i class="fa-solid fa-paper-plane ms-2"></i>
+        </button>
+      </form>
+    </section>
+
+    <!-- Carte Google Maps -->
+    <section class="mb-5">
+      <h2 class="section-title text-center">Localisation</h2>
+      <div class="map-responsive rounded shadow">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25382.773908109716!2d-15.619944!3d15.611582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xecd85ba66d739b3%3A0x32c0174a9c110d69!2sLouga!5e0!3m2!1sfr!2ssn!4v1691156368805"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3">
+    <small>© 2025 Ferme du NGUENNAR -Une passion, un terroir.</small>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script JS -->
+  <script src="script_ngenar.js" defer></script>
+</body>
+
+</html>
